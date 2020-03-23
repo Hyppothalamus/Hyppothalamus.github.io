@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background-color: #090909;
+    color: #BBBBBB;
+    /*position: relative;*/
+    z-index: 1;
+}
+
+.header p {
+    padding: 15px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.jumbotron {
+    background-image: url("/img/programmerBackground.jpg");
+    background-size: cover;
+}
