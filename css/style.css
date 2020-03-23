@@ -17,6 +17,13 @@
 }
 
 .jumbotron {
-    background-image: url("/img/programmerBackground.jpg");
+    background-image: url("../img/programmerBackground.jpg");
     background-size: cover;
+    color: #BBBBBB;
+    padding-bottom: 900px;
+}
+
+.jumbotron h1 {
+    padding-top: 200px;
+    padding-bottom: 10px;
 }
