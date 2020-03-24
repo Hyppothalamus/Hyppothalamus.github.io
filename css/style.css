@@ -19,22 +19,26 @@
 
 .jumbotron {
     background-image: url("../img/programmerBackground.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     color: #BBBBBB;
     padding-bottom: 800px;
     margin: 0;
+    height: 100%;
 }
 
 .jumbotron h1 {
-    padding-top: 200px;
+    padding-top: 90px;
     padding-bottom: 10px;
 }
 
 .introduction {
     padding-top: 20px;
     padding-bottom: 10px;
-    color: #2F3C1B;
-    background: #3A6782;
+    color: #BBBBBB;
+    background: #36453B;
 }
 
 .skills {
