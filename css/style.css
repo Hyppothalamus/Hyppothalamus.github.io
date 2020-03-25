@@ -44,6 +44,7 @@
 .skills {
     padding-top: 10px;
     background: #BBBBBB;
+    padding-bottom: 20px;
 }
 
 .card {
@@ -52,6 +53,20 @@
 
 .icon {
     color: #67823A;
+}
+
+.motion {
+    background: #36453B;
+    color: #BBBBBB;
+    padding-bottom: 20px;
+}
+
+.motion h1 {
+    padding: 10px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+    color: #BBBBBB;
 }
 
 p {
