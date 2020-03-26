@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>eindTaak</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -15,12 +15,46 @@
 <body>
 <div class="header">
     <div class="container">
-        <div class="row">
-            <p>Kasper Haepers</p>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <p>
+                        Kasper Haepers
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="#introduction">
+                    <p>
+                        introduction
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="#skills">
+                    <p>
+                        skills
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="#motion">
+                    <p>
+                        life in motion
+                    </p>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a href="#contact">
+                    <p>
+                        contact
+                    </p>
+                </a>
+            </div>
         </div>
     </div>
 </div>
-<div class="jumbotron text-center jumbotron-fluid">
+<div class="jumbotron text-center jumbotron-fluid" id="jumbotron">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -34,7 +68,7 @@
         </div>
     </div>
 </div>
-<div class="introduction">
+<div class="introduction" id="introduction">
     <div class="container">
         <div class="col-12 text-center">
             <h2>
@@ -46,7 +80,7 @@
         </div>
     </div>
 </div>
-<div class="skills">
+<div class="skills" id="skills">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
@@ -113,7 +147,7 @@
         </div>
     </div>
 </div>
-<div class="motion">
+<div class="motion" id="motion">
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
@@ -181,7 +215,7 @@
         </div>
     </div>
 </div>
-<div class="map">
+<div class="map" id="map">
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3 text-center">
@@ -192,12 +226,13 @@
         </div>
     </div>
     <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5792.726998560663!2d4.601397906587128!3d51.07323938391877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e2dbfb90c43b%3A0x5e9ecbc1937e4671!2sDraplei%2021%2C%202580%20Putte!5e0!3m2!1snl!2sbe!4v1585150505285!5m2!1snl!2sbe"
+        <iframe class="embed-responsive-item"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5792.726998560663!2d4.601397906587128!3d51.07323938391877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e2dbfb90c43b%3A0x5e9ecbc1937e4671!2sDraplei%2021%2C%202580%20Putte!5e0!3m2!1snl!2sbe!4v1585150505285!5m2!1snl!2sbe"
                 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
     </div>
 </div>
-<div class="contact">
+<div class="contact" id="contact">
     <div class="container">
         <div class="col-md-6 offset-md-3 text-center">
             <h2>
@@ -231,9 +266,13 @@
                         <p>
                             Kasper Haepers
                         </p>
+                    </div>
+                    <div class="row">
                         <p>
                             +32468182714
                         </p>
+                    </div>
+                    <div class="row">
                         <p>
                             kasper.haepers@outlook.be
                         </p>
