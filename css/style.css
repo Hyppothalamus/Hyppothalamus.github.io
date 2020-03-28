@@ -82,3 +82,21 @@ p {
 h2 {
     padding: 5px;
 }
+
+.map {
+    background-color: #BBBBBB;
+}
+
+.contact {
+    background-color: #36453B;
+    color: #BBBBBB;
+}
+
+.contact a {
+    color: #BBBBBB;
+    padding-left: 175px;
+}
+
+.contact a:hover {
+    color: #8d8d8d;
+}
