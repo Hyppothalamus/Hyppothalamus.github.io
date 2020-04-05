@@ -104,3 +104,7 @@ h2 {
 .video {
     background-color: #BBBBBB;
 }
+
+.carousel-color h5, .carousel-color p {
+    color: #090909;
+}
